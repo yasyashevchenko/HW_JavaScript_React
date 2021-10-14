@@ -1,0 +1,57 @@
+.carousel-control-next,
+.carousel-control-prev {
+    background: rgba(32, 2, 66, 0.5);
+    color: rgb(248, 248, 248);
+    height: 10%;
+    width: 5%;
+    top: 40%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+  .carousel-control-prev::before,
+  .carousel-control-prev::after {
+    position: relative;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+  }
+  
+  .carousel-control-prev::before {
+    transform: rotate(145deg);
+    left: 10px;
+    top: -5px;
+  }
+  
+  .carousel-control-prev::after {
+    top: 6px;
+    left: -10px;
+    transform: rotate(-145deg);
+  }
+
+
+  .carousel-control-next::before,
+  .carousel-control-next::after {
+    position: relative;
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+  }
+  
+  .carousel-control-next::before {
+    transform: rotate(35deg);
+    left: 12px;
+    top: -4px;
+  }
+  
+  .carousel-control-next::after {
+    top: 6px;
+    left: -8px;
+    transform: rotate(-35deg);
+  }
+
+  
